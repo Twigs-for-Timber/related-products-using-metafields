@@ -18,5 +18,5 @@ Testimonials are an important feature for many online stores, creating a feeling
 
 
 <a href="https://gratipay.com/Cam/">
-  <img alt="Support via Gratipay" src="https://cdn.rawgit.com/gratipay/gratipay-badge/2.3.0/dist/gratipay.svg"/>
+  <img alt="Support via Gratipay" src="https://cdn.rawgit.com/gratipay/gratipay-badge/2.3.0/dist/gratipay.svg" style="width:100px;" />
 </a>
