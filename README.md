@@ -1,6 +1,4 @@
-<pre>
-<!--------------------------------
-       
+<pre>       
  _____       _         
 |_   _|_ _ _|_|___ ___ 
   | | | | | | | . |_ -|
@@ -9,7 +7,6 @@
 
 Twigs for Timber by Cam @Elkfox
 http://experts.shopify.com/elkfox
---------------------------------->
 </pre>
 
 # Testimonial Showcase
