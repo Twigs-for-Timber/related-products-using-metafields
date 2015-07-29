@@ -5,7 +5,7 @@
   |_| |_____|_|_  |___|
               |___|    
 
-Twigs for Timber by Cam @Elkfox
+Twigs for Timber by Cam @ Elkfox
 http://experts.shopify.com/elkfox
 </pre>
 
