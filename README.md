@@ -9,12 +9,12 @@ Twigs for Timber by Cam @ Elkfox
 http://experts.shopify.com/elkfox
 </pre>
 
-# Testimonial Showcase
-Testimonials are an important feature for many online stores, creating a feeling of trust with customers. This twig uses Slick Slider to create a dynamic testimonials slider.
+# Related Products Using Metafields
+Related product items can 
 
-* [Article](http://twigs.club/library/testimonial-showcase)
-* [Demo](https://twigs-demo.myshopify.com/pages/testimonial-showcase)
-* [Download](https://github.com/Twigs-for-Timber/testimonial-showcase)
+* [Article](http://twigs.club/library/related-products-using-metafields)
+* [Demo](https://twigs-demo.myshopify.com/products/related-products-using-metafields)
+* [Download](https://github.com/Twigs-for-Timber/related-products-using-metafields)
 
 
 <a href="https://gratipay.com/Cam/">
