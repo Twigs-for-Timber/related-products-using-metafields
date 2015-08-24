@@ -1,0 +1,47 @@
+{% comment %}
+<!--------------------------------
+       
+ _____       _         
+|_   _|_ _ _|_|___ ___ 
+  | | | | | | | . |_ -|
+  |_| |_____|_|_  |___|
+              |___|    
+
+Twigs for Timber by Cam @Elkfox
+http://experts.shopify.com/elkfox
+--------------------------------->
+Solution brought to you by Caroline Schnapp
+Modified for Timber by Cam Gould
+Requires Metafields App by Webify Technology
+See this: http://wiki.shopify.com/Related_Products
+{% endcomment %}
+
+<h3>Related Items</h3>
+ 
+{% assign grid_item_width = 'large--one-sixth medium--one-third' %}
+{% assign image_size = 'large' %}
+ 
+{% if product.metafields.recommendations.productHandles %}
+	<div class="related-products grid-uniform"></div>
+{% endif %}
+
+<script type="text/javascript" charset="utf-8">
+//<![CDATA[
+  // let's wait until the main product assets are loaded, as they are more important
+  $(window).load(function(){
+  	// now for the goodness
+	  var recommendations = [];
+	  {% if product.metafields.recommendations.productHandles %}
+	  recommendations = jQuery.trim({{ product.metafields.recommendations.productHandles | json }}).split(/[\s,;]+/);
+	  {% endif %}
+	  if (recommendations.length && recommendations[0] !== '') {
+	    var list = jQuery('.related-products');
+	    for (var i=0; i<recommendations.length; i++) {
+	      jQuery.getJSON('/products/' + recommendations[i] + '.js', function(product) {
+	        list.append('<div class="grid__item {{grid_item_width}} grid-product"><a href="' + product.url +'"><img src="' + product.images[0].replace(/(\.jpg|\.png|\.jpeg|\.gif)/, '_{{ image_size }}$1') + '" /></a><p class="h6"><a href="' + product.url + '">' + product.title + '</a></h6><p class="price">' + Shopify.formatMoney(product.price, '{{ shop.money_format }}') + '</p></div>');
+	      });
+	    }
+	  }
+  });  
+//]]>
+</script>
