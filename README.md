@@ -14,7 +14,7 @@ Related product items can
 
 * [Article](http://twigs.club/library/related-products-using-metafields)
 * [Demo](https://twigs-demo.myshopify.com/products/related-products-using-metafields)
-* [Download](https://github.com/Twigs-for-Timber/related-products-using-metafields)
+* [Download](https://github.com/Twigs-for-Timber/related-products-using-metafields/archive/master.zip)
 
 
 <a href="https://gratipay.com/Cam/">
