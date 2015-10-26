@@ -10,7 +10,6 @@ http://experts.shopify.com/elkfox
 </pre>
 
 # Related Products Using Metafields
-Related product items can 
 
 * [Article](http://twigs.club/library/related-products-using-metafields)
 * [Demo](https://twigs-demo.myshopify.com/products/related-products-using-metafields)
